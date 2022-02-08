@@ -84,13 +84,47 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-hr {
+hr 
+{
   margin: 1rem 0;
   color: inherit;
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
 }
+
+/*!
+ El Wrapper hace con este codigo que se vea el 100% de la pantalla */
+ 
+.wrapper
+{
+  width: 100vw;
+  height: 100vh;
+  background-color:#191c32;
+  color:#fff ;
+}
+
+/*!
+ El .brand este me cambiara el color de la letra C a color agua que esta dentro del span en el index */
+.brand span
+ {
+  color:aqua ;
+ }
+
+ /*!
+ El .navbar con el display: flex permitira que se pongan los textos de arriba del inicio y demas uno al lado del otro*/
+ .navbar
+ {
+  display: flex;
+  justify-content: space-between;
+ }
+
+/*!
+ El Menu hace con este codigo que se vea el 100% de la pantalla */
+  .menu a
+ {
+      color:#fff ;
+ }
 
 hr:not([size]) {
   height: 1px;
