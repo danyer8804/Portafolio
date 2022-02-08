@@ -199,7 +199,13 @@ hr
  {
   background-color:#fff ;
  }
- 
+
+ .main img
+ {
+   width: 350px;
+   border: 7px solid aqua ;
+   height: 520px
+ }
 
 
 
