@@ -202,7 +202,8 @@ hr
 
  .main img
  {
-   width: 350px;
+   width: 330px;
+   border-radius: 50px;
    border: 7px solid aqua ;
    height: 520px
  }
