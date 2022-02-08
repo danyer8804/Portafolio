@@ -111,20 +111,60 @@ hr
   color:aqua ;
  }
 
+ .brand 
+ {
+  margin-top: -10px ;
+ }
+
  /*!
- El .navbar con el display: flex permitira que se pongan los textos de arriba del inicio y demas uno al lado del otro*/
+ El .navbar (Navegador) con el display: flex permitira que se pongan los textos de arriba del inicio y demas uno al lado del otro*/
  .navbar
  {
   display: flex;
   justify-content: space-between;
+  padding:2em;
+ }
+
+ /*!
+ El .menu quita las viñetas redondas*/
+ .menu li
+ {
+      
+      list-style: none;
  }
 
 /*!
- El Menu hace con este codigo que se vea el 100% de la pantalla */
+ El decora etiquetas "a" del Menu y a su vez le quita el subrayado de las letras */
   .menu a
  {
       color:#fff ;
+      text-decoration: none;
+      padding: 10px 20px;
  }
+
+ .menu 
+ {
+  display: flex;
+  width: 60%;
+  justify-content:space-around;
+ }
+
+ .menu .active
+ {
+  color:aqua ;
+ }
+
+
+ .menu a:hover
+ {
+  background-color:aqua ;
+  color:#191c32;
+  transition:ease-in .4s;
+ }
+
+
+
+
 
 hr:not([size]) {
   height: 1px;
