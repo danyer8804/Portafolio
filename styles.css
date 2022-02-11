@@ -55,8 +55,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(82, 82, 82);
 }
 
 *,
@@ -108,7 +108,7 @@ wrapper
  El .brand este me cambiara el color de la letra C a color agua que esta dentro del span en el index */
 .brand span
  {
-  color:aqua ;
+  color:rgb(255, 255, 255) ;
  }
 
  .brand 
@@ -123,7 +123,7 @@ wrapper
   display: flex;
   justify-content: space-between;
   padding:2em;
-  background-color:rgb(39, 43, 43) ;
+  background-color:rgb(32, 39, 39) ;
  }
 
  /*!
@@ -215,6 +215,7 @@ wrapper
  {
   width: 100px;   
   border: 60px;
+  
   
   
   
@@ -3907,7 +3908,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-  color: #6c757d;
+  color: #ffffff;
   white-space: nowrap;
 }
 
