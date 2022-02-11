@@ -96,7 +96,7 @@ hr
 /*!
  El Wrapper hace con este codigo que se vea el 100% de la pantalla */
  
-.wrapper
+wrapper
 {
   width: 100vw;
   height: 100vh;
@@ -123,6 +123,7 @@ hr
   display: flex;
   justify-content: space-between;
   padding:2em;
+  background-color:rgb(39, 43, 43) ;
  }
 
  /*!
@@ -140,19 +141,21 @@ hr
       color:#fff ;
       text-decoration: none;
       padding: 10px 20px;
+      
  }
 
+ 
  .menu 
  {
+   
   display: flex;
   width: 60%;
   justify-content:space-around;
+  
+  
  }
 
- .menu .active
- {
-  color:aqua ;
- }
+
 
 
  .menu a:hover
@@ -207,6 +210,16 @@ hr
    border: 7px solid aqua ;
    height: 520px
  }
+
+ .navbar img
+ {
+  width: 100px;   
+  border: 60px;
+  
+  
+  
+  
+}
 
 
 
@@ -263,6 +276,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+  
 }
 
 p {
@@ -4130,8 +4144,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.0rem;
+  padding-bottom: 0.0rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
